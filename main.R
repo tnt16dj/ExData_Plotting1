@@ -62,6 +62,9 @@ powerData <- subset(powerData,powerData$Date == dmy("1-2-2007") | powerData$Date
 setwd("../")
 
 ## download the plotting scripts into the My_Plots subdirectory
-if (!file.exists("./My_Plots/plot1.r")) {
-        fileurl <- 
+if (!file.exists("./My_Scripts/plot1.r")) {
+        fileurl <- "https://raw.githubusercontent.com/tnt16dj/ExData_Plotting1/master/My_Scripts/plot1.r"
+        download.file(fileurl,destfile="./My_Scripts/plot1.r",method="curl")
 }
+
+source('./My_Scripts/plot1.r')
