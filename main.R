@@ -80,3 +80,5 @@ if (!file.exists("./My_Scripts/plot3.r")) {
 source('./My_Scripts/plot1.r')
 
 source('./My_Scripts/plot2.r')
+
+source('./My_Scripts/plot3.r')

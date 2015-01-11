@@ -2,7 +2,7 @@
 setwd("./My_Plots")
 
 ## setup a png device to write to
-png(filename="plot2.png",width=480,height=480,units="px",bg="transparent")
+png(filename="plot3.png",width=480,height=480,units="px",bg="transparent")
 
 ## make the plot
 with(powerData,plot(powerData$Date+powerData$Time,
