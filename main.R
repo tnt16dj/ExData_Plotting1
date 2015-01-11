@@ -92,4 +92,3 @@ source('./My_Scripts/plot4.r')
 
 ## clean up memory
 rm(fileurl, is.installed)
-rm(is.installed)
