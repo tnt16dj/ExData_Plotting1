@@ -9,7 +9,7 @@ plot(powerData$Date+powerData$Time,
      powerData$Global_active_power,
      xlab='',
      ylab='Global Active Power (kilowatts)', 
-     main=''', 
+     main='', 
      type='l')
 
 ## Turn off the png device
