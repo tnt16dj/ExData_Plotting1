@@ -72,6 +72,11 @@ if (!file.exists("./My_Scripts/plot2.r")) {
         download.file(fileurl,destfile="./My_Scripts/plot2.r",method="curl")
 }
 
+if (!file.exists("./My_Scripts/plot3.r")) {
+        fileurl <- "https://raw.githubusercontent.com/tnt16dj/ExData_Plotting1/master/My_Scripts/plot3.r"
+        download.file(fileurl,destfile="./My_Scripts/plot3.r",method="curl")
+}
+
 source('./My_Scripts/plot1.r')
 
 source('./My_Scripts/plot2.r')
