@@ -12,9 +12,9 @@ You can simply source <b>Main.r</b> into your working directory and it will down
 
 The <b>Main.r</b> script creates the following file structure in your working directory:
 * ExData_Plotting1
-** My_Plots
-** My_Scripts
-** Power_Data
+ * My_Plots
+ * My_Scripts
+ * Power_Data
 
 
 Here is the output of the Main.r script for quick reference:
